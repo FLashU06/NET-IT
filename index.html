@@ -1,78 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NET-IT Official</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NET-IT</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="overlay">
-      <h1 class="game-title">NET-IT</h1>
-      <p class="tagline">Not Every Truth Is Truth</p>
-      <a href="#story" class="btn">Enter the Network</a>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">NET-IT</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#story">Story</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#updates">Updates</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Not Every Truth is Truth</h2>
+      <p>A thrilling action-story game that challenges your perception of reality.</p>
+      <a href="#contact" class="btn">Join the Mission</a>
+    </div>
+  </section>
 
-  <!-- Story -->
-  <section id="story" class="section">
-    <h2>The World of NET-IT</h2>
+  <!-- About -->
+  <section id="about" class="about container">
+    <h2>About the Game</h2>
     <p>
-      A fractured digital era hides layers of deception.  
-      In this high-stakes cyber-action thriller, every clue may be a trap.  
-      Remember: <strong>Not Every Truth Is Truth</strong>.
+      NET-IT (Not Every Truth is Truth) is an immersive action game where every decision uncovers deeper layers of deception. 
+      Explore vast worlds, face hidden enemies, and discover that not all truths can be trusted.
     </p>
   </section>
 
   <!-- Team -->
-  <section id="team" class="section team">
+  <section id="team" class="team container">
     <h2>Our Team</h2>
     <div class="team-grid">
       <div class="member">
-        <h3>FLashU</h3>
+      <h3>Anish paradkar</h3>
         <p>Founder & Lead Developer</p>
       </div>
-      <!-- Add more team members -->
+      <div class="member">
+        <h3>Wadood khan</h3>
+        <p>Story Writer</p>
+      </div>
+      <!-- Add more members as needed -->
     </div>
   </section>
 
-  <!-- Updates -->
-  <section id="updates" class="section">
-    <h2>Latest Updates</h2>
-    <ul class="updates-list">
-      <li><strong>[Oct 2025]</strong> Story development in progress.</li>
-      <li><strong>[Nov 2025]</strong> Gameplay prototype under testing.</li>
-    </ul>
-  </section>
-
   <!-- Contact -->
-  <section id="contact" class="section contact">
-    <h2>Get in Touch</h2>
-    <p>Want to join or follow development?</p>
-    <a class="btn"
-   href="mailto:paradkaranish6@gmail.com?subject=NET-IT%20Inquiry&body=Hello%20Team,">
-   Email Us
-</a>
-
+  <section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to collaborate? Get in touch!</p>
+    <a class="btn" href="mailto:paradkaranish6@gmail.com">Email Us</a>
   </section>
 
-  <footer>
-    &copy; 2025 NET-IT Studios. All rights reserved.
+  <footer class="footer">
+    <p>© 2025 NET-IT Studio. All rights reserved.</p>
   </footer>
-
-<script src="script.js"></script>
 </body>
 </html>
